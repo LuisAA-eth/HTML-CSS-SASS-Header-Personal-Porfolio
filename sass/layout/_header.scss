@@ -1,0 +1,63 @@
+body{
+    margin-top: -150px;
+}
+
+
+
+.header_principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 140px;
+    margin-right: 140px;
+    
+
+    .menu{
+        
+        ul{
+            display: inline-flex;
+            align-items: center;
+            gap: 35px;
+
+            li{
+               list-style: none;
+               
+               a{
+                font-family: $secundary_font;
+                color: $primary_colorBlack;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-decoration: none;
+               }
+            }
+        }
+    }
+
+
+
+    .logo{
+
+        
+    }
+
+    .Redes_sociales{
+
+        ul{
+            display: inline-flex;
+            align-items: flex-start;
+            gap: 35px;
+          
+
+            li{
+                width: 10%;
+                list-style: none;
+                
+                
+            }
+        }
+    }
+
+
+}
